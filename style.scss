@@ -1,0 +1,16 @@
+@import "mediaQueries.scss";
+@import "loginSection.scss";
+
+
+.background-picture{
+   background-image:  url("https://app.pluralsight.com/id/content/img/login-bg.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+footer{
+   text-align: center;
+   margin-top: 20px;
+   margin-top: 30px;
+}

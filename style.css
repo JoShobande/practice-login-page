@@ -1,0 +1,84 @@
+@media (max-width: 767px) {
+  .background-picture {
+    display: none;
+  }
+}
+.login-pannel {
+  background-color: #181818;
+  color: white;
+  height: 100vh;
+}
+.login-pannel .login-heading {
+  text-align: center;
+  margin-top: 25px;
+}
+.login-pannel form {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.login-pannel form input {
+  width: 320px;
+  height: 35px;
+  background: #181818;
+  border: 1px solid #555;
+  color: white;
+  padding: 5px;
+}
+.login-pannel form input[type=button] {
+  background-color: #f96816;
+  border: none;
+}
+.login-pannel form input:focus {
+  outline: none;
+}
+.login-pannel form small p {
+  text-align: center;
+  margin-top: 25px;
+}
+.login-pannel form .lineCover {
+  margin-top: 45px;
+}
+.login-pannel form .firstAndSecondLine {
+  border: 1px solid white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.login-pannel form .Ortext {
+  text-align: center;
+  margin-top: -10px;
+}
+.login-pannel form .buttonCover {
+  text-align: center;
+  margin-top: 45px;
+}
+.login-pannel form button {
+  width: 200px;
+  height: 40px;
+  background: #181818;
+  color: white;
+}
+.login-pannel form button:hover {
+  border: #f96816 1px solid;
+  color: #f96816;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.background-picture {
+  background-image: url("https://app.pluralsight.com/id/content/img/login-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
